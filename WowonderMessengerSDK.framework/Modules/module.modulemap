@@ -1,0 +1,11 @@
+framework module WowonderMessengerSDK {
+  umbrella header "WowonderMessengerSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module WowonderMessengerSDK.Swift {
+    header "WowonderMessengerSDK-Swift.h"
+    requires objc
+}
